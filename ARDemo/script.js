@@ -30,7 +30,7 @@ ArToolkitContext.init(function(){
 var ArMarkerControls = new THREEx.ArMarkerControls(ArToolkitContext,camera,
     {
     type:'pattern',
-    patternUrl:'pattern-Happens.patt',
+    patternUrl:'pattern-cube.patt',
     changeMatrixMode:'cameraTransformMatrix'
 });
 scene.visible = false;
